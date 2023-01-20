@@ -1,0 +1,54 @@
+body {
+  font-family: "Axia", Arial, Helvectica, sans-serif;
+  font-size: 12pt;
+  margin: 15px;
+  color: ##000000;
+}
+
+
+.introduction{
+  font-size: 20px;
+  text-align: justify;
+}
+
+#bandeau{
+  position: absolute;
+  top: 150px;
+  left: 720px;
+  width: 600px;
+  height: 475px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFE;
+  padding: 15px;
+}
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: "Axia", Arial, Helvectica, sans-serif;;
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+.source{
+  font: 10px;
+  position: absolute;
+  top: 495px;
+  left: 720px;
+  width: 600px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFE;
+  padding: 15px;
+}
