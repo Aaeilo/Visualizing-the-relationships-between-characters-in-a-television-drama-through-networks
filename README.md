@@ -27,6 +27,7 @@ Avant de constituer moi-même ces données, j'ai effectué des recherches les ty
 6.  Dégoût.
 
 ![Figure 1: Capture d'écran d'un fichier excel représentant les données récoltées](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%201.png)
+
 *Figure 1: Capture d'écran d'un fichier excel représentant les données récoltées*
 
 Cette méthode représente un point faible sur l'authenticité des données puisque la typologie des relations a été réalisée selon ma perception et non de manière objective. Après la récolte des données, je les ai transformé en JSON, en créant un « *tableau* » pour chaque épisodes contenant :
