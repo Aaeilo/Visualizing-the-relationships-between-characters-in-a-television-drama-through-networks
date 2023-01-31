@@ -26,7 +26,7 @@ Avant de constituer moi-même ces données, j'ai effectué des recherches les ty
 
 6.  Dégoût.
 
-![Figure 1: Capture d'écran d'un fichier excel représentant les données récoltées](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%201.png "Capture d'écran d'un fichier excel représentant les données récoltées")
+![Figure 1: Capture d'écran d'un fichier excel représentant les données récoltées](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%201.png)*Figure 1: Capture d'écran d'un fichier excel représentant les données récoltées*
 
 Cette méthode représente un point faible sur l'authenticité des données puisque la typologie des relations a été réalisée selon ma perception et non de manière objective. Après la récolte des données, je les ai transformé en JSON, en créant un « *tableau* » pour chaque épisodes contenant :
 
@@ -44,11 +44,11 @@ J'ai usé de la librairie de D3 pour la conception de ce projet pour présenter 
 
 Il existe deux interfaces qui correspondent à deux versions de mon travail. Le premier dispose de neuf boutons associés à chaque épisode de la saison de la 1. Dans cette version, l'utilisateur devrait normalement cliquer sur un épisode (le troisième par exemple) et un graphique de réseaux apparaîtrait et représenterait les types de liaisons qui auraient pu avoir dans cet épisode. Malheureusement, cette version n'est pas fonctionnelle (plus d'informations sur les limites du projet sur l'onglet « Issues ».
 
-![Figure 2: Capture d'écran de l'interface de la première version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%202.png "Figure 2: Capture d'écran de l'interface de la permière version")
+![Figure 2: Capture d'écran de l'interface de la première version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%202.png)*Figure 2: capture d'écran de l'interface de la première version*
 
 La seconde version est un exemple d'un réseau pour le premier épisode. Nous pouvons observer que l'ensemble les liens sont courbées et dispose d'une flèche indiquant la cible des sentiments. Pour les choix des couleurs, j'ai sélectionné celles qui étaient évocatrices pour nous, occidentaux telle que ; le rouge avec la colère, le jaune qui est synonyme de bonheur donc amitié ou encore le vert pour le dégoût. Les nœuds sont également colorées en fonction des postes occupé par les personnages principaux (un gradient de bleu qui correspond aux blouses de médecins utilisées dans la série).
 
-![Figure 3: Capture d'écran de la seconde version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%203.png "Figure 3: Capture d'écran de la seconde version")
+![Figure 3: Capture d'écran de la seconde version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%203.png)*Figure 3: capture d'écran de la seconde version*
 
 Dans les deux versions, aucune interactivité n'est possible pour le moment.
 
