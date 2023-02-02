@@ -8,7 +8,10 @@ Voici le synopsis de la série tiré du site internet Allo-ciné :
 
 « *Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'efforce de maintenir de bonnes relations avec ses camarades internes, mais dans ce métier difficile la compétition fait rage...* » (source : Allo-ciné, s.d).
 
-Dans la première saison, on nous introduit les personnages principaux dans un environnement médical. Ils sont distingués selon leurs professions chirurgicales de manière hiérarchique ; - Les internes : présentés comme des adultes ou jeunes adultes, fraîchement diplômés de l'école de médecine et qui découvrent pour la première fois l'univers hospitalier en tant que docteur. Mais leur objectif principal est de devenir chirurgiens certifiés. - Les résidents : ils encadrent les internes dans leur transition entre le domaine universitaire et l'hôpital et se trouvent, à mi-chemin de devenir chirurgiens titulaires. - Les chirurgiens titulaires : ces postes symbolisent le saint Graal autant pour les internes que les résidents. Et le chef de la chirurgie qui coordonne l'unité chirurgicale de l'hôpital.
+Dans la première saison, on nous introduit les personnages principaux dans un environnement médical. Ils sont distingués selon leurs professions chirurgicales de manière hiérarchique ; 
+- les internes : présentés comme des adultes ou jeunes adultes, fraîchement diplômés de l'école de médecine et qui découvrent pour la première fois l'univers hospitalier en tant que docteur. Mais leur objectif principal est de devenir chirurgiens certifiés. 
+- les résidents : ils encadrent les internes dans leur transition entre le domaine universitaire et l'hôpital et se trouvent, à mi-chemin de devenir chirurgiens titulaires. 
+- les chirurgiens titulaires : ces postes symbolisent le saint Graal autant pour les internes que les résidents. Et le chef de la chirurgie qui coordonne l'unité chirurgicale de l'hôpital.
 
 ## Les données
 
