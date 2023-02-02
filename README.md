@@ -29,7 +29,8 @@ Avant de constituer moi-même ces données, j'ai effectué des recherches sur le
 
 6.  Dégoûts.
 
-![Figure 1: Capture d'écran d'un fichier excel représentant les données récoltées](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%201.png)
+![Figure 1: Capture d'écran d'un fichier excel représentant les données récoltées](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/figure_1.png)
+
 *Figure 1: Capture d'écran d'un fichier excel représentant les données récoltées*
 
 Cette méthode représente un point faible sur l'authenticité des données puisque la typologie des relations a été réalisée selon ma perception et non de manière objective. Après la récolte des données, je les ai transformé en JSON, en créant un « *tableau* » pour chaque épisode contenant :
@@ -49,14 +50,17 @@ J'ai usé de la librairie de D3 pour la conception de ce projet.
 Il existe deux interfaces qui correspondent à deux versions de mon travail. Le premier dispose de neuf boutons associés à chaque épisode de la saison une. Dans cette version, l'utilisateur peut cliquer sur l'un des boutons (le troisième par exemple) et un graphique de réseaux apparaît. Il représente les types de liaisons qui ont eu lieu dans cet épisode. Nous pouvons observer que l'ensemble des liens disposent d'une flèche indiquant la cible des sentiments éprouvés. Pour le choix des couleurs, j'ai sélectionné celles qui étaient évocatrices pour nous occidentaux telle que ; le rouge avec la colère, le jaune qui est synonyme de bonheur donc amitié ou encore le vert pour le dégoût. Les nœuds sont également colorés en fonction des postes occupés par les personnages principaux (un gradient de bleu qui correspond aux blouses de médecines utilisées dans la série).
 Même si les liens sont affichés et que l'utilisateur puisse faire bouger les noeuds avec la souris, le graphique ne représente pas les liens dans son intégralité, ils sont superposés. (Plus d'informations sur les limites du projet sur l'onglet « Issues »).
 
+![Figure 2: Capture d'écran de l'interface de la première version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/figure_2.png)
+*Figure 2: Capture d'écran de l'interface de la première version avec le graphique du troisième épisode*
+
 Pour régler ce problème, j'ai créé une seconde version, similaire à la première au niveau de la visualisation, mais avec des liens courbés ce qui donne une meilleure lecture des typologies des relations (comme le montre la figure 3). Le souci est que ces liens ne s'affichent pas et que seuls les noeuds sont visibles. De plus, les interactions semblent fonctionner normalement (changement des graphes en fonction des épisodes et déplacement d'un neoud par la souris). 
 
-![Figure 2: Capture d'écran de l'interface de la première version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%202.png)
-*Figure 2: Capture d'écran de l'interface de la première version*
+![Figure 3: Exemple d'un graphique avec les liens courbés](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/figure_3.png)
+*Figure 3: Exemple d'un graphique réprésentant les liens lors du troisième épisode*
 
 
-![Figure 3: Capture d'écran de la seconde version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%203.png)
-*Figure 3: Capture d'écran de la seconde version*
+![Figure 4: Capture d'écran de la seconde version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/figure_4.png)
+*Figure 4: Capture d'écran de l'interface de la seconde version avec le graphique de l'épisode trois*
 
 
 ## Procédure d'installation
