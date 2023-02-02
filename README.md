@@ -40,21 +40,22 @@ Au total, nous 8 personnages (huit nœuds), et sur l'ensemble des épisodes, env
 
 ## Procédure d'installation
 
-J'ai usé de la librairie de D3 pour la conception de ce projet pour présenter qu'un seul type de graphique visuel, les réseaux.
+J'ai usé de la librairie de D3 pour la conception de ce projet.
 
 ## Interface graphique
 
-Il existe deux interfaces qui correspondent à deux versions de mon travail. Le premier dispose de neuf boutons associés à chaque épisode de la saison de la 1. Dans cette version, l'utilisateur devrait normalement cliquer sur un épisode (le troisième par exemple) et un graphique de réseaux apparaîtrait et représenterait les types de liaisons qui auraient pu avoir dans cet épisode. Malheureusement, cette version n'est pas fonctionnelle (plus d'informations sur les limites du projet sur l'onglet « Issues ».
+Il existe trois interfaces qui correspondent à trois versions de mon travail. Le premier dispose de neuf boutons associés à chaque épisode de la saison de la 1. Dans cette version, l'utilisateur peut cliquer sur l'un des boutons (le troisième par exemple) et un graphique de réseaux apparaîtrait et représenterait les types de liaisons qui auraient pu avoir dans cet épisode. Nous pouvons observer que l'ensemble des liens disposent d'une flèche indiquant la cible des sentiments. Pour le choix des couleurs, j'ai sélectionné celles qui étaient évocatrices pour nous occidentaux telle que ; le rouge avec la colère, le jaune qui est synonyme de bonheur donc amitié ou encore le vert pour le dégoût. Les nœuds sont également colorés en fonction des postes occupé par les personnages principaux (un gradient de bleu qui correspond aux blouses de médecins utilisées dans la série).
+Même si les liens sont affichés et que l'utilisateur puisse faire bouger les noeuds avec la souris, le graphique ne représente pas les liens dans son intégralité (plus d'informations sur les limites du projet sur l'onglet « Issues »).
 
 ![Figure 2: Capture d'écran de l'interface de la première version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%202.png)
 *Figure 2: capture d'écran de l'interface de la première version*
 
-La seconde version est un exemple d'un réseau pour le premier épisode. Nous pouvons observer que l'ensemble les liens sont courbées et dispose d'une flèche indiquant la cible des sentiments. Pour les choix des couleurs, j'ai sélectionné celles qui étaient évocatrices pour nous, occidentaux telle que ; le rouge avec la colère, le jaune qui est synonyme de bonheur donc amitié ou encore le vert pour le dégoût. Les nœuds sont également colorées en fonction des postes occupé par les personnages principaux (un gradient de bleu qui correspond aux blouses de médecins utilisées dans la série).
+Pour la seconde  version, il s'agit d'un réseau graphique représentant les liaisons durant le troisième épisode. Celle-ci nous sert d'exemple pour avoir une idée à quoi ressemeblerait nos réseaux de base (première version) s'ils disposaient de liens courbés. Puisque la plupart des relations entre les personnages sont réciproques, les liens courbés permettent une meilleur lecteure des typologies des relations qu'avec des liens linéaires (plus d'informations sur les limites du projet sur l'onglet « Issues »).
 
 ![Figure 3: Capture d'écran de la seconde version](https://github.com/Aaeilo/Visulation-des-relations-travers-un-r-seau-le-cas-avec-Grey-s-Anatomy/blob/main/figure_readme/Figure%203.png)
 *Figure 3: capture d'écran de la seconde version*
 
-Dans les deux versions, aucune interactivité n'est possible pour le moment.
+J'ai tenté à mainte reprise d
 
 ## Procédure d'installation
 
