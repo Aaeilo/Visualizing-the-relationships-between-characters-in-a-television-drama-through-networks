@@ -491,7 +491,7 @@ function start(ep_1){
 var path = svg.select(".links").selectAll(".link")
 .data(ep_1.edges);
 //Ici, on associe à chaque valeur des liens une couleur
-path.enter().append("line")
+path.enter().append("path")
     .attr("class", "link")
     .style("stroke", function(d){
   if(d.value === "1") {return '#D0A8D5'}
@@ -501,6 +501,7 @@ path.enter().append("line")
   else if (d.value === "5"){return '#679DAF'}
   else if (d.value === "6"){return '#67AF6E'}})
 .attr("marker-end", "url(#end)")
+.style("fill", "none")
 path.exit().remove();
 
 //Défintion des noeuds
