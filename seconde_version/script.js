@@ -486,47 +486,91 @@ svg.append("g").attr("class", "nodes");
 /*La fonction "start" était sensée afficher 
 le premier réseau par défaut sur notre caneva*/
 function start(ep_1){
-
 //Définition de l'apparence des liens
-var path = svg.select(".links").selectAll(".link")
-.data(ep_1.edges);
-//Ici, on associe à chaque valeur des liens une couleur
-path.enter().append("path")
-    .attr("class", "link")
-    .style("stroke", function(d){
-  if(d.value === "1") {return '#D0A8D5'}
-  else if (d.value === "2"){return '#CEB712'}
-  else if (d.value === "3"){return '#940C0C'}
-  else if (d.value === "4"){return '#65437C'}
-  else if (d.value === "5"){return '#679DAF'}
-  else if (d.value === "6"){return '#67AF6E'}})
-.attr("marker-end", "url(#end)")
-.style("fill", "none")
-path.exit().remove();
+  var path = svg.select(".links").selectAll(".link").data(episode.edges);
+  //Ici, on associe à chaque valeur des liens une couleur
+  path.join(
+    function (enter) {
+      return enter
+        .append("path")
+        .attr("class", "link")
+        .style("stroke", function (d, i) {
+          if (d.value === "1") {
+            return "#D0A8D5";
+          } else if (d.value === "2") {
+            return "#CEB712";
+          } else if (d.value === "3") {
+            return "#940C0C";
+          } else if (d.value === "4") {
+            return "#65437C";
+          } else if (d.value === "5") {
+            return "#679DAF";
+          } else if (d.value === "6") {
+            return "#67AF6E";
+          }
+        })
+        .attr("marker-end", "url(#end)")
+        .style("fill", "none");
+    },
+    function (update) {
+      return update
+        .style("stroke", function (d, i) {
+          if (d.value === "1") {
+            return "#D0A8D5";
+          } else if (d.value === "2") {
+            return "#CEB712";
+          } else if (d.value === "3") {
+            return "#940C0C";
+          } else if (d.value === "4") {
+            return "#65437C";
+          } else if (d.value === "5") {
+            return "#679DAF";
+          } else if (d.value === "6") {
+            return "#67AF6E";
+          }
+        })
+        .attr("marker-end", "url(#end)");
+    },
+    function (exit) {
+      return exit.remove();
+    }
+  );
 
-//Défintion des noeuds
-var node = svg.select(".nodes").selectAll(".node").data(ep_1.nodes)
-//Ici, on assosie une couleur à un noeud selon le groupe qu'il appartient
-var enterselection = node.enter().append("g").attr("class","node");
-var circles = enterselection.append("circle").attr("r", 8)
-.style("fill", function(d){
-    if(d.group === "Interne"){return '#A4BED3'}
-        else if (d.group === "Resident"){return '#497292'}
-            else if (d.group === "Titulaire"){return ' #173E5C'}
-                else if (d.group === "Chef"){return '#000000'}});
+  //Défintion des noeuds
+  var node = svg.select(".nodes").selectAll(".node").data(episode.nodes);
+  //Ici, on assosie une couleur à un noeud selon le groupe qu'il appartient
+  var enterselection = node.enter().append("g").attr("class", "node");
+  var circles = enterselection
+    .append("circle")
+    .attr("r", 8)
+    .style("fill", function (d) {
+      if (d.group === "Interne") {
+        return "#A4BED3";
+      } else if (d.group === "Resident") {
+        return "#497292";
+      } else if (d.group === "Titulaire") {
+        return " #173E5C";
+      } else if (d.group === "Chef") {
+        return "#000000";
+      }
+    });
 
-//On affiche les id (noms) de chaque neoud
-var label = enterselection.append("text")
-.attr("x", 14)
-.attr("dy", ".35em")
-.text(function(d) {return d.id; });
-node.exit().remove();
+  //On affiche les id (noms) de chaque neoud
+  var label = enterselection
+    .append("text")
+    .attr("x", 14)
+    .attr("dy", ".35em")
+    .text(function (d) {
+      return d.id;
+    });
+  node.exit().remove();
 
-/*Normalement, ces trois lignes devrait afficher le layout de 
+  /*Normalement, ces trois lignes devrait afficher le layout de 
 notre réseau par défaut*/
-  simulation.nodes(ep_1.nodes).on("tick", tick);
-  simulation.force("link").links(ep_1.edges);
+  simulation.nodes(episode.nodes).on("tick", tick);
+  simulation.force("link").links(episode.edges);
   simulation.alphaTarget(0.1).restart();
+
 }
 
 /*Cette function devrait nous permettre d'avoir l'état du layout lorsqu'il a
